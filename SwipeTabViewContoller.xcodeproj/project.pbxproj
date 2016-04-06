@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F53E271CB51EBC00BA5C77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F53E261CB51EBC00BA5C77 /* main.m */; };
+		05F53E2A1CB51EBC00BA5C77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F53E291CB51EBC00BA5C77 /* AppDelegate.m */; };
+		05F53E2D1CB51EBC00BA5C77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F53E2C1CB51EBC00BA5C77 /* ViewController.m */; };
+		05F53E301CB51EBC00BA5C77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F53E2E1CB51EBC00BA5C77 /* Main.storyboard */; };
+		05F53E321CB51EBC00BA5C77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F53E311CB51EBC00BA5C77 /* Assets.xcassets */; };
+		05F53E351CB51EBC00BA5C77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F53E331CB51EBC00BA5C77 /* LaunchScreen.storyboard */; };
+		05F53E401CB51EBC00BA5C77 /* SwipeTabViewContollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F53E3F1CB51EBC00BA5C77 /* SwipeTabViewContollerTests.m */; };
+		05F53E4B1CB51EBC00BA5C77 /* SwipeTabViewContollerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F53E4A1CB51EBC00BA5C77 /* SwipeTabViewContollerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05F53E3C1CB51EBC00BA5C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F53E1A1CB51EBC00BA5C77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F53E211CB51EBC00BA5C77;
+			remoteInfo = SwipeTabViewContoller;
+		};
+		05F53E471CB51EBC00BA5C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05F53E1A1CB51EBC00BA5C77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05F53E211CB51EBC00BA5C77;
+			remoteInfo = SwipeTabViewContoller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F53E221CB51EBC00BA5C77 /* SwipeTabViewContoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeTabViewContoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F53E261CB51EBC00BA5C77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05F53E281CB51EBC00BA5C77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05F53E291CB51EBC00BA5C77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05F53E2B1CB51EBC00BA5C77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		05F53E2C1CB51EBC00BA5C77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05F53E2F1CB51EBC00BA5C77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05F53E311CB51EBC00BA5C77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05F53E341CB51EBC00BA5C77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05F53E361CB51EBC00BA5C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F53E3B1CB51EBC00BA5C77 /* SwipeTabViewContollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeTabViewContollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F53E3F1CB51EBC00BA5C77 /* SwipeTabViewContollerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeTabViewContollerTests.m; sourceTree = "<group>"; };
+		05F53E411CB51EBC00BA5C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F53E461CB51EBC00BA5C77 /* SwipeTabViewContollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeTabViewContollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F53E4A1CB51EBC00BA5C77 /* SwipeTabViewContollerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeTabViewContollerUITests.m; sourceTree = "<group>"; };
+		05F53E4C1CB51EBC00BA5C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F53E1F1CB51EBC00BA5C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F53E381CB51EBC00BA5C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F53E431CB51EBC00BA5C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F53E191CB51EBC00BA5C77 = {
+			isa = PBXGroup;
+			children = (
+				05F53E241CB51EBC00BA5C77 /* SwipeTabViewContoller */,
+				05F53E3E1CB51EBC00BA5C77 /* SwipeTabViewContollerTests */,
+				05F53E491CB51EBC00BA5C77 /* SwipeTabViewContollerUITests */,
+				05F53E231CB51EBC00BA5C77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05F53E231CB51EBC00BA5C77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F53E221CB51EBC00BA5C77 /* SwipeTabViewContoller.app */,
+				05F53E3B1CB51EBC00BA5C77 /* SwipeTabViewContollerTests.xctest */,
+				05F53E461CB51EBC00BA5C77 /* SwipeTabViewContollerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F53E241CB51EBC00BA5C77 /* SwipeTabViewContoller */ = {
+			isa = PBXGroup;
+			children = (
+				05F53E281CB51EBC00BA5C77 /* AppDelegate.h */,
+				05F53E291CB51EBC00BA5C77 /* AppDelegate.m */,
+				05F53E2B1CB51EBC00BA5C77 /* ViewController.h */,
+				05F53E2C1CB51EBC00BA5C77 /* ViewController.m */,
+				05F53E2E1CB51EBC00BA5C77 /* Main.storyboard */,
+				05F53E311CB51EBC00BA5C77 /* Assets.xcassets */,
+				05F53E331CB51EBC00BA5C77 /* LaunchScreen.storyboard */,
+				05F53E361CB51EBC00BA5C77 /* Info.plist */,
+				05F53E251CB51EBC00BA5C77 /* Supporting Files */,
+			);
+			path = SwipeTabViewContoller;
+			sourceTree = "<group>";
+		};
+		05F53E251CB51EBC00BA5C77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F53E261CB51EBC00BA5C77 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05F53E3E1CB51EBC00BA5C77 /* SwipeTabViewContollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				05F53E3F1CB51EBC00BA5C77 /* SwipeTabViewContollerTests.m */,
+				05F53E411CB51EBC00BA5C77 /* Info.plist */,
+			);
+			path = SwipeTabViewContollerTests;
+			sourceTree = "<group>";
+		};
+		05F53E491CB51EBC00BA5C77 /* SwipeTabViewContollerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05F53E4A1CB51EBC00BA5C77 /* SwipeTabViewContollerUITests.m */,
+				05F53E4C1CB51EBC00BA5C77 /* Info.plist */,
+			);
+			path = SwipeTabViewContollerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F53E211CB51EBC00BA5C77 /* SwipeTabViewContoller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F53E4F1CB51EBC00BA5C77 /* Build configuration list for PBXNativeTarget "SwipeTabViewContoller" */;
+			buildPhases = (
+				05F53E1E1CB51EBC00BA5C77 /* Sources */,
+				05F53E1F1CB51EBC00BA5C77 /* Frameworks */,
+				05F53E201CB51EBC00BA5C77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeTabViewContoller;
+			productName = SwipeTabViewContoller;
+			productReference = 05F53E221CB51EBC00BA5C77 /* SwipeTabViewContoller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05F53E3A1CB51EBC00BA5C77 /* SwipeTabViewContollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F53E521CB51EBC00BA5C77 /* Build configuration list for PBXNativeTarget "SwipeTabViewContollerTests" */;
+			buildPhases = (
+				05F53E371CB51EBC00BA5C77 /* Sources */,
+				05F53E381CB51EBC00BA5C77 /* Frameworks */,
+				05F53E391CB51EBC00BA5C77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F53E3D1CB51EBC00BA5C77 /* PBXTargetDependency */,
+			);
+			name = SwipeTabViewContollerTests;
+			productName = SwipeTabViewContollerTests;
+			productReference = 05F53E3B1CB51EBC00BA5C77 /* SwipeTabViewContollerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05F53E451CB51EBC00BA5C77 /* SwipeTabViewContollerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F53E551CB51EBC00BA5C77 /* Build configuration list for PBXNativeTarget "SwipeTabViewContollerUITests" */;
+			buildPhases = (
+				05F53E421CB51EBC00BA5C77 /* Sources */,
+				05F53E431CB51EBC00BA5C77 /* Frameworks */,
+				05F53E441CB51EBC00BA5C77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F53E481CB51EBC00BA5C77 /* PBXTargetDependency */,
+			);
+			name = SwipeTabViewContollerUITests;
+			productName = SwipeTabViewContollerUITests;
+			productReference = 05F53E461CB51EBC00BA5C77 /* SwipeTabViewContollerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F53E1A1CB51EBC00BA5C77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "小小";
+				TargetAttributes = {
+					05F53E211CB51EBC00BA5C77 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WA926FCVY2;
+					};
+					05F53E3A1CB51EBC00BA5C77 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WA926FCVY2;
+						TestTargetID = 05F53E211CB51EBC00BA5C77;
+					};
+					05F53E451CB51EBC00BA5C77 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WA926FCVY2;
+						TestTargetID = 05F53E211CB51EBC00BA5C77;
+					};
+				};
+			};
+			buildConfigurationList = 05F53E1D1CB51EBC00BA5C77 /* Build configuration list for PBXProject "SwipeTabViewContoller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05F53E191CB51EBC00BA5C77;
+			productRefGroup = 05F53E231CB51EBC00BA5C77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F53E211CB51EBC00BA5C77 /* SwipeTabViewContoller */,
+				05F53E3A1CB51EBC00BA5C77 /* SwipeTabViewContollerTests */,
+				05F53E451CB51EBC00BA5C77 /* SwipeTabViewContollerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F53E201CB51EBC00BA5C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F53E351CB51EBC00BA5C77 /* LaunchScreen.storyboard in Resources */,
+				05F53E321CB51EBC00BA5C77 /* Assets.xcassets in Resources */,
+				05F53E301CB51EBC00BA5C77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F53E391CB51EBC00BA5C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F53E441CB51EBC00BA5C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F53E1E1CB51EBC00BA5C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F53E2D1CB51EBC00BA5C77 /* ViewController.m in Sources */,
+				05F53E2A1CB51EBC00BA5C77 /* AppDelegate.m in Sources */,
+				05F53E271CB51EBC00BA5C77 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F53E371CB51EBC00BA5C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F53E401CB51EBC00BA5C77 /* SwipeTabViewContollerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05F53E421CB51EBC00BA5C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F53E4B1CB51EBC00BA5C77 /* SwipeTabViewContollerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05F53E3D1CB51EBC00BA5C77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F53E211CB51EBC00BA5C77 /* SwipeTabViewContoller */;
+			targetProxy = 05F53E3C1CB51EBC00BA5C77 /* PBXContainerItemProxy */;
+		};
+		05F53E481CB51EBC00BA5C77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05F53E211CB51EBC00BA5C77 /* SwipeTabViewContoller */;
+			targetProxy = 05F53E471CB51EBC00BA5C77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05F53E2E1CB51EBC00BA5C77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F53E2F1CB51EBC00BA5C77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05F53E331CB51EBC00BA5C77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F53E341CB51EBC00BA5C77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05F53E4D1CB51EBC00BA5C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05F53E4E1CB51EBC00BA5C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05F53E501CB51EBC00BA5C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeTabViewContoller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangRong.SwipeTabViewContoller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05F53E511CB51EBC00BA5C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeTabViewContoller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangRong.SwipeTabViewContoller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05F53E531CB51EBC00BA5C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwipeTabViewContollerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangRong.SwipeTabViewContollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeTabViewContoller.app/SwipeTabViewContoller";
+			};
+			name = Debug;
+		};
+		05F53E541CB51EBC00BA5C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwipeTabViewContollerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangRong.SwipeTabViewContollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeTabViewContoller.app/SwipeTabViewContoller";
+			};
+			name = Release;
+		};
+		05F53E561CB51EBC00BA5C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwipeTabViewContollerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangRong.SwipeTabViewContollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwipeTabViewContoller;
+			};
+			name = Debug;
+		};
+		05F53E571CB51EBC00BA5C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwipeTabViewContollerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangRong.SwipeTabViewContollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwipeTabViewContoller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F53E1D1CB51EBC00BA5C77 /* Build configuration list for PBXProject "SwipeTabViewContoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F53E4D1CB51EBC00BA5C77 /* Debug */,
+				05F53E4E1CB51EBC00BA5C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F53E4F1CB51EBC00BA5C77 /* Build configuration list for PBXNativeTarget "SwipeTabViewContoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F53E501CB51EBC00BA5C77 /* Debug */,
+				05F53E511CB51EBC00BA5C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05F53E521CB51EBC00BA5C77 /* Build configuration list for PBXNativeTarget "SwipeTabViewContollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F53E531CB51EBC00BA5C77 /* Debug */,
+				05F53E541CB51EBC00BA5C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05F53E551CB51EBC00BA5C77 /* Build configuration list for PBXNativeTarget "SwipeTabViewContollerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F53E561CB51EBC00BA5C77 /* Debug */,
+				05F53E571CB51EBC00BA5C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F53E1A1CB51EBC00BA5C77 /* Project object */;
+}
